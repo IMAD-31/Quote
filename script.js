@@ -4,7 +4,7 @@ const authorText= document.getElementById("author")
 const twittebtnr= document.getElementById("twitter")
 const newquotebtn= document.getElementById("new-quote")
 const loder= document.getElementById('loader')
-
+let apiQuotes=[]
 function loading(){
 loder.hidden=false;
 quotegen.hidden=true;
